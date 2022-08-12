@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+         "context_set": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Glad to help!", "Any time!", "My pleasure"],
+         "context_set": [""]
+        },
+        {"tag": "tasks",
+         "patterns": ["What can you do?", "What are your features?", "What are you abilities?" ],
+         "responses": ["I provide cannabis recommendations based on your preferences", "I'm the Ai Budtender, here to assist              you."],
+         "context_set": [""]
+        },
+        {"tag": "talk",
+         "patterns": [ "What is your favorite strain?", "What do you recommend?" ],
+         "responses": ["Nothing, I'm a robot", "If I was a real patient, I would say animal cookies."],
+         "context_set": [""]
+         },
+        {"tag": "hybrid_recommendation_effect",
+         "patterns": [ "Relaxed", "Creative", "Uplifted", "Euphoria", "Happy", "Sweet" ],
+         "responses": ["Acid Dough by Ripper Seeds is a sativa-dominant strain with energetic effects.This strain offers sweet, candy-like aromas with bright pineapple flavors and a generous yield.", "Gold Panda is a sativa-dominant hybrid that is light and earthy with tropical and spicy notes. Like other Kush derivatives, this strain is built to fight physical discomfort,showing powerful body effects stilted by a luminous mental state brought forward by its recessive Jack Herer genetics."],
+         "context_set": [""]
+        },
+        {"tag": "hybrid_recommendation_flavor",
+         "patterns": [ "Sweet.", "Spicy.", "Flowery", "Citrus", "Relaxed" ],
+         "responses": ["For a sweet tasting strain I recommend Dutchberry", "If you perfer a relaxing spicy strain try Fire-Alien-Strawberry.",
+          "Fruit Punch is a mostly sativa strain from Heavyweight Seeds, who bred this flavor powerhouse from Skunk, Haze, and Northern Lights genetics. Named for its swift hit of sweet fruity and tropical flavors, this sativa has something to offer in both taste and effect. Fruit Punch charges the mind with creative and social energy, so keep this strain in your stash jar for active days spent with friends or personal hobbies.", 
+          "G13 Widow has aroma of this intricate hybrid is sweet and tropical with notes of overripe fruit. The influence of G13 brings out medical strength, euphoric body effects, while White Widow brings a more uplifted, cerebral buzz. Medical patients note G13 Widow‚Äôs ability to fend off body pains and also its impact on stomach issues and appetite stimulation."],
+         "context_set": [""]
+        },
+         {"tag": "sativa_recommendation_effect",
+         "patterns": [ "I want to feel energetic.", "Creative", "What strain do you recommend for focus?", "Talkative"],
+         "responses": ["Alpha Express is an introspective sativa strain that descends from Alpha Blue and Ghost Train Haze. With a complex flavor that spans sour juniper and musky cedar notes, Alpha Express delivers spacey cerebral effects perfect for meditative or creative activities. Its buds bloom with trichome-covered calyxes that carry a red tint as the flowers mature.", 
+         "Sunshine #4 is an award-winning hybrid bred by Bodhi Seeds. This blend of Chemdawg 4 and Sunshine Daydream genetics took the prize for Best Hybrid Flower at the 2015 High Times Medical Cup in Michigan."],
+         "context_set": [""]
+        },
+        {"tag": "sativia_recommendation_flavor",
+         "patterns": [ "Sweet.", "Spicy.", "Flowery", "Citrus", "Coffee", "Relaxed"],
+         "responses": ["Swiss Tsunami is a rare CBD-rich strain with a pungent smell. A genetic cross of Swiss Gold and Sour Tsunami, Swiss-Tsu is a potent pairing that can generate over 14% CBD with just 0.5% THC on average. Reeking of skunky, herbaceous terpenes and having the bright yet delicate flavor of orange peel on the exhale, Swiss Tsunami is a connoisseur CBD cut in a league of its own. Enjoy this strain to help relieve inflammation, nausea, and anxiety.",
+         "Spyder Mon is an uplifting CBD strain with a good lineage, getting its manageable euphoria and anti-inflammatory effects from Midnight Farm. This combo delivers a 2.5:1 CBD/THC ratio that soothes the body while improving the mood. Its effects are mostly clear-headed that¬†lend themselves to all day use. The aroma is fresh, exhibiting notes of citrus and pine. Utilize Spyder Mon to help reduce inflammation, nausea, headaches, and minor physical aches and pains."],
+         "context_set": [""]
+        },
+        {"tag": "indica_recommendation_effect",
+         "patterns": [ "What do you recommend for relaxation?", "I have issues with sleeping, what do you recommend?"],
+         "responses": ["Allen Iverson OG is a heavy indica strain that's designed for consumers with a stubbornly high tolerance to THC, this potent indica delivers a powerfully euphoric experience that tranquilizes the body while launching your mind to the cosmos. Sweet pine and wood flavors intermix with aromas of sour fuel, offering a complex profile for consumers who cherish flavor as much as potency.", "Bert'sCookie Dough by Los Angeles Kush is a heavy Cookies phenotype crossed with the renowned West Coast mainstay, OGKB. This hybrid was crafted by none other than Bert Baccarat for LAK and thus, the namesake. It offers a classic Cookies bouquet of pungent earth and doughy sweetness overlaid with notes of pine. The effects are heavy, weighing consumers to the couch while the warm body effects help alleviate stress, minor pain relief, and insomnia.",
+"Blood Orange Kush is an indica-dominant cross of, as of now, the unknown or unnamed genetics Aota x Pinecracker and an unnamed OG. This plant has a bushy structure that doesn‚ but the dense, trichome-covered nugs are prized for their bright terpene profile and heavy effects. Blood Orange Kush emits a bouquet of gas and tart citrus that fills the room and coats the palate. Its uplifting mental buzz and relaxing physical effects make Blood Orange Kush a solid option for consumers looking to abate minor pain and elevate mood."],
+         "context_set": [""]
+        },
+        {"tag": "indica_recommendation_flavor",
+         "patterns": [ "Lavender", "Sweet", "Herbal", "Euphoria", "Earthy"],
+         "responses": ["B-Witched by Ocean Grown Seeds is a magical cross of arcane genetics, exhibiting notes of grape, forest floor, and grapefruit. Its terpene profile has also been described as cupcake-ish. The effects of B-Witched are enthralling, muting stress, anxiety, and nausea with ease.", "CherWillie is the sativa-dominant hybrid cross of Chernobyl and Willie Nelson. This strain is a true hybrid in effect, offering consumers balanced physical and mental attributes that take the edge off repetitive tasks or a long day. The terpene profile is a mixture of earth and spice with a smooth finish.CherWillie is known to have a creative and functional buzz as well as a manageable potency.", "Chocolate Rain by Eskobar Seeds is a flavorful mashup of exceptional genetic stock from two exceptional breeders and indica dominated. This twice-deep chocolate pairing emits a bittersweet cocoa aroma with touches of blueberry and floral Kush notes on the finish. The strain, effects are balanced, offering happy, relaxing mental and physical effects that aren't overwhelming. Chocolate Rain has a decent yield and an average 9 to 10 week flowering period."],
+         "context_set": [""]
+        }
+  ]
+}
